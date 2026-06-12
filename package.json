@@ -1,0 +1,5 @@
+{ "type":"module",
+  "dependencies": {
+    "couchbase": "^4.7.0"
+  }
+}
