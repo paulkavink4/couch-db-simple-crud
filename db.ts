@@ -1,9 +1,9 @@
 import couchbase from "couchbase";
 const cluster = await couchbase.connect(
-  "couchbases://cb.5tebyuzry7ze-q6.cloud.couchbase.com",
+  "cluster-url",
   {
-    username: "nodejs-user",
-    password: "9865Paul@",
+    username: "your-user-name",
+    password: "your-password",
   }
 );
 
